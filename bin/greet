@@ -2,3 +2,18 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+puts "Hi! I'm HAL, what's your name?"
+name = gets.strip
+greeting(name)
+
+
+# THEN IN bin/greeting
+# 1. print "Hi! I'm HAL, what's your name?" to the screen
+# 2. capture the users response in a variable "name"
+# 3. call the greeting method with your new variable
+
+
+# THENNN run ruby bin/greet to watch it work!
+# THENNNN run learn to watch the tests pass
+# THENNNNN run learn submit to submit the lab 
